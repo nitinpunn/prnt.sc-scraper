@@ -5,6 +5,7 @@ This is a Python script to scrape images from prnt.sc
 ## Background
 
 Prnt.sc uses a simple 6 character alphanumeric sequential code for each image. Therefore it is extremely easy to scrape for images.
+For more information about this: https://medium.com/@ntipun/a-case-of-poor-url-generation-b7013e3d5fa6
 
 ## Usage
 
