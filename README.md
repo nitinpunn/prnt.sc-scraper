@@ -16,5 +16,13 @@ pip3 install beautifulsoup4
 pip3 install mechanize 
 ```
 
+## Known issues on macOS
+
+If you encounter an error such as 
+```
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)>
+```
+The solution is here: https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
