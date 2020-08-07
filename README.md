@@ -10,6 +10,8 @@ For more information about this: https://medium.com/@ntipun/a-case-of-poor-url-g
 ## Usage
 
 The prnt.py file and the pictures folder should be in the same directory and pictures directory must exist.
+If the pictures folder does not exists, it will be created.
+
 Mechanize and BeautifulSoup are needed for this and can be installed by the following commands:
 ```python
 pip3 install beautifulsoup4

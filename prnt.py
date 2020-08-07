@@ -2,6 +2,7 @@ import random
 import string
 import mechanize
 import bs4
+import os
 
 # The random combinations will be stored here
 combos = []
@@ -40,6 +41,8 @@ def tryRandom(tries):
         print("Done with " + str(i+1) + "/" + str(amount))
 
 if __name__ == "__main__":
+    if not os.path.exists("pictures"):
+        os.makedirs("pictures")
     amount = int(input("Enter amount of images to scrape: "))
     generateRandom(amount)
     print("Combinations generated!")

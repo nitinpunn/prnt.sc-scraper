@@ -1,2 +1,0 @@
-The script needs this directory to save the image.
-So make sure it exists in the same directory as prnt.py!
